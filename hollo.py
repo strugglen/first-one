@@ -1,10 +1,7 @@
-def area(wid,hei):
-    return wid * hei
-
-def print_welcome(name):
-    print("welcom",name)
-
-print_welcome("RUN")
-w = 7
-h =5
-print("wid=", w ,"hei=",h, "area=",area(w,h))
+a = 1
+while a<7:
+    if(a%2==0):
+        print(a,"is even")
+    else:
+        print(a,"is odd")
+    a +=1
